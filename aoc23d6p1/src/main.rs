@@ -29,6 +29,5 @@ fn main() {
         advent.push(winning);
     }
 
-    println!("{:?}", advent);
-    println!("{:?}", advent.iter().product::<i64>());
+    println!("{}", advent.iter().product::<i64>());
 }
