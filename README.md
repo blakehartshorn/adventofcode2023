@@ -8,8 +8,6 @@ I guess this is a disclaimer for if you find this in my GitHub graveyard in 3 ye
 
 Each day has two related exercises. As the second part often has significant changes, I've started each one in a separate folder rather than changing in place. The convention of aoc23d[day]p[part] should be obvious.
 
-The input data for each exercise is tossed into said folder. If you have Cargo installed, all you need to do is change into the relevant directory and and run.
-```
-% cd aoc23d3p1
-% cargo run
-```
+These will run with the input in the project folder named input.txt, example: `aoc23d3p1/input.txt`. If it doesn't run, it did with mine, so your input had an edge case, cool!
+
+All of this was posted after respective leaderboards were full.
