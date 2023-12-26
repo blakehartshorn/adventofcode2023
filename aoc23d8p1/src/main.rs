@@ -20,6 +20,13 @@ impl Node {
 }
 
 // For infinitely iterating over the LR string.
+
+/*  
+    UPDATE: wait, doesn't .chars() on String already do this?
+    lmao I can't believe I pushed this. Fwiw I was up until
+    2am last night and did this before caffeine had kicked in.
+    Sorry, still new at Rust.
+*/
 struct Consumer {
     sides: Vec<char>,
     i: usize,
